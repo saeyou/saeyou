@@ -1,6 +1,8 @@
 
 
 
+
+
 def get_response(query):
     url = "https://api.bard.ai/v1/answer"
     params = {"query": query, "bru_mode": "true"}
